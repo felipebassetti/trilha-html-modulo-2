@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #055844;
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.877);
 }
 .main {
     display: flex;
@@ -19,20 +19,28 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    
+    background-color: rgba(255, 255, 255, 0.877)    ;
     padding: 10px 20px 0px;
+    font-style: normal;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgba(255, 255, 255, 0.877);
+    min-height: 100px;
+    justify-content: center;
+    font-style:oblique;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+.redtext {
+    color: red;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgba(255, 255, 255, 0.877);
+    min-height: 100px;
+    font-style: oblique;
 }
